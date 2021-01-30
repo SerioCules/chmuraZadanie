@@ -35,7 +35,7 @@ function createDatabase() {
     `CREATE TABLE notes ( note_id varchar(255), note_text varchar(8000) )`,
     (err, rowCount) => {
       if (err) {
-        console.error("DB");
+        // console.error("DB");
       } else {
         console.log(`${rowCount} row(s) affected`);
       }
