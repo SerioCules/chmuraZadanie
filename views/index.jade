@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  form(action='/', method="get")
+    button(type="submit", id="home") home
+  form(action=path, method="post")
+    h1=title
+      button(type="submit") save
+    //- input(placeholder="id")
+    //- button(type="submit") load
+    textarea(name="content", rows="30", placeholder="Click to start typing")=content

@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    form(action='/load/id', method="post")
+        h1=title
+            input(name="content", placeholder="id")
+            button(type="submit") load

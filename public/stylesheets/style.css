@@ -1,0 +1,47 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: gray;
+}
+
+h1 {
+  color: gainsboro;
+  margin-inline-start: 0.67em;
+}
+
+a {
+  color: #00B7FF;
+}
+
+textarea {
+  color: white;
+  margin: 0 2em; 
+  width: calc(100% - 16px - 4em);
+  height: calc(100vh - 116px);
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: 1px solid gainsboro;
+  background-color: gray;
+  transition: width 0.3s, height 0.3s;
+  padding: 8px
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea::placeholder {
+  color: lightgray;
+}
+
+button, input {
+  position: relative;
+  top: -0.25em;
+  margin-left: 2em;
+}
+
+#home {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
